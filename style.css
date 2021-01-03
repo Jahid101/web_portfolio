@@ -13,3 +13,12 @@ h3{
 .name{
     color: rgba(230, 153, 11, 0.924);
 }
+.hw{
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding: 2%;
+}
+.hw img{
+    width: 90%;
+}
