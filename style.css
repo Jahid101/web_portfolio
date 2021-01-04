@@ -12,13 +12,13 @@ h3{
     font-size: 25px;
 }
 h4{
-    font-size: 50px;
+    font-size: 45px;
 }
 h5{
     font-size: 25px;
 }
 .name{
-    color: rgba(230, 153, 11, 0.924);
+    color: orange;
 }
 .hw{
     width: 40%;
@@ -40,6 +40,7 @@ section{
 .bb{
     text-decoration: none;
     background-image: linear-gradient(45deg, lightsalmon,tomato);
+    box-shadow: 10px 10px 35px orangered;
     border-radius: 50%;
     padding: 10px 20px;
     color: white;
@@ -49,4 +50,29 @@ section{
     background-image: url("img/db.png");
     background-position: right;
     background-repeat: no-repeat;
+}
+.se{
+    box-shadow: 10px 10px 40px orangered;
+    border-radius: 10px;
+    height: 70%;
+    background-color: white;
+}
+.ex{
+    background-image: url("img/exb.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#fs{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#bw{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,rgb(7, 240, 248));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
 }
